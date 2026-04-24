@@ -1,0 +1,26 @@
+services:
+  lpr_service:
+    build: .
+    image: lpr-unified-service:latest
+    container_name: lpr_system_unified
+    restart: unless-stopped
+    
+    # GPU Access configuration
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    network_mode: "host"
+
+    volumes:
+      - ./config.json:/app/config.json
+      - ./models:/app/models
+      - ./logs:/app/logs
+      - ./videos:/app/videos
+      - ./license:/app/license
+      - ./public_key.pem:/app/public_key.pem
+      - ./outputs:/app/outputs

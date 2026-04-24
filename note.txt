@@ -1,0 +1,16 @@
+python camera.py --config_file config.json
+
+python tools/setup_direction.py --camera_name visitor_camera
+
+python tools/setup_roi.py --camera_name entry_camera  
+
+
+
+
+echo "# lpr_licensed" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Naveenkumar-katomaran/lpr_licensed.git
+git push -u origin main

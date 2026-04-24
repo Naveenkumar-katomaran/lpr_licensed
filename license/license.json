@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "license_id": "kato-001",
+    "valid_days": 365,
+    "issued_at": "2026-02-28T07:20:00Z",
+    "expires_at": "2027-02-28T18:30:00Z",
+    "user_name": "User",
+    "email": "user@katomaran.com"
+  },
+  "signature": "q7WfFLGThFnnB3loPSHbBlw7toTezvSH0qGg1Xtl8invUYp44PHlLp3rlRFDf73GiTT85XvRio3Gfwf3qmhIzWAYkXTpsITBDCVyluYe0xpUhcTJFrO8suJrVxzLRN57G5UrhHxBab97aPLJf4sjys+djOtf89pEpvPtEylHZhtwpuBc6LTnZqwhk9AnwfOnUsDCpz3jWpdN1PWkFfPFncPNSxQGvDu7MH1RKHad4gFUMzdRU9dnzLitWXrGWPDNdzhQ5WGXwciEHTprCIaKB3xmBJvXGYCcJvF/ohelqBxKnPyg01BPEnXmoGdDF802zkT/RwxHeGb6biU1Mj+0Rw=="
+}

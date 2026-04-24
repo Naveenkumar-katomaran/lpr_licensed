@@ -1,0 +1,15 @@
+# Python caches
+__pycache__/
+**/*.py[cod]
+*$py.class
+
+# Project specific data directories
+images/
+entry_camera/
+exit_camera/
+visitor_camera/
+logs/
+configs_store/
+training/
+__pycache__
+utils/__pycache__
