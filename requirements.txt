@@ -10,7 +10,4 @@ matplotlib
 pandas
 twilio
 cryptography
-
-and i need to store the 
-ocr batch results for particular id 
-needs to be stored in the respective json as well
+ultralytics
